@@ -4,7 +4,7 @@ python-api-challenge
 	Scope The scope for this activity was to understand the weather pattern in relationship with location in order to find an optimal vacation destination.
 
 Part 1-WeatherPy 
-	A python script was created on Jupyter notebook and jupyter lab in order to better visualize the data. The weather of 500+ cities were analyzed based on location (Longitud, Latutud) and its location relative to the ecuador.
+	A python script was created on Jupyter notebook and jupyter lab in order to better visualize the data. The weather of 500+ cities were analyzed based on location (Longitud, Latitud) and its location relative to the ecuador.
 
 The first requirement is to create a series of scatter plots to showcase the following relationships:
 
@@ -22,9 +22,9 @@ After each plot, add a sentence or two explaining what the code is analyzing.
 The second requirement is to run linear regression on each relationship. This time, separate the plots into Northern Hemisphere (greater than or equal to 0 degrees latitude) and Southern Hemisphere (less than 0 degrees latitude):
 
 Northern Hemisphere - Temperature (F) vs. Latitude
-	for this side os the sphere there is a strong negative correlation between latitude and max temperature for northern hemisphere as we move away from the ecuator.
+	for this side os the sphere there is a strong negative correlation between latitude and max temperature for northern hemisphere as we move away from the equator.
 Southern Hemisphere - Temperature (F) vs. Latitude
-	for this side os the sphere there is a strong Positive correlation between latitude and max temperature for northern hemisphere as we move in direction the ecuator.
+	for this side os the sphere there is a strong Positive correlation between latitude and max temperature for northern hemisphere as we move in the equator.
 Northern Hemisphere - Humidity (%) vs. Latitude
 	There is a moderate positive correlation between latitude and humidity
 Southern Hemisphere - Humidity (%) vs. Latitude
@@ -38,4 +38,3 @@ Northern Hemisphere - Wind Speed (mph) vs. Latitude
 Southern Hemisphere - Wind Speed (mph) vs. Latitude
 	There is a weak negative correlation between latitude and wind speed for southern hemisphere.
 
-After each pair of plots, take the time to explain what the linear regression is modeling. For example, describe any relationships you notice and any other analysis you may have.

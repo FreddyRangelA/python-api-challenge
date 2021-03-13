@@ -36,5 +36,3 @@ Northern Hemisphere - Wind Speed (mph) vs. Latitude
 	There is a weak positive correlation between latitude and wind speed for southern hemisphere.
 Southern Hemisphere - Wind Speed (mph) vs. Latitude
 	There is a weak negative correlation between latitude and wind speed for southern hemisphere.
-
-After each pair of plots, take the time to explain what the linear regression is modeling. For example, describe any relationships you notice and any other analysis you may have.
