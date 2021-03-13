@@ -1,9 +1,23 @@
 # python-api-challenge
+
 python-api-challenge
 
 	Scope The scope for this activity was to understand the weather pattern in relationship with location in order to find an optimal vacation destination.
 
-Part 1-WeatherPy 
+Part 1-WeatherPy
+
+Analisys:
+
+Weather prediction has always been on every traveler's mind. Finding the right information in order to plan the perfect trip is what every family vacation needs. By using Google API in conjunction with python and Jupyter NoteBooks, the correct data can be gathered.
+
+FIrst the data gets pulled out of the CSV file, under specific parameters such as longitude and latitude. With these parameters the request to Google’s API is made.
+Next, the base DataFrame is created with all the cities location. Places with high humidity get removed. 
+Finally, the data gets organized and plotted. Based on those visualisation the following conclusion can be reached:
+
+1.The closer to the equator the higher the temperatures and as moved away from the equator temperatures tend to drop.
+2.Humidity is codirebly more changing in the northern hemisphere. There are more places on the same hemisphere with very different values for humidity.
+3.The behavior for cloud formation does not seem to be affected but the geographical location. Cloud formation seems more at random than following any path.
+
 	A python script was created on Jupyter notebook and jupyter lab in order to better visualize the data. The weather of 500+ cities were analyzed based on location (Longitud, Latitud) and its location relative to the ecuador.
 
 The first requirement is to create a series of scatter plots to showcase the following relationships:
